@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	position: relative;
+}
+
+body {
+	background-image: url(../img/kayu2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.navbar{
+	filter: drop-shadow(0px 0px 10px lightblue);
+
+}		
+.navbar-brand img{
+	width: 50px;
+	height: 40px;
+	display: block;
+	margin-top: -5px;
+}
+.carousel{
+	margin-top: 10px;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+ 	background-image: url(../img/computer.jpeg);
+ 	height: 640px;
+}
+.carousel-caption h3{
+	font-family: elephant;
+	font-size: 35px;
+	color: #fff;
+	text-shadow: 1px 1px 10px black;
+}
+.carousel-caption p{
+	margin-top:20px;
+	font-family: sans-serif;
+  	font-weight: 100;
+  	font-size: 18px;
+  	text-align: center;
+  	box-shadow: 1px 1px 10px black;
+}
+.carousel .item{
+    min-height: 600px; 
+}
+.carousel .item img{
+    margin: 0 auto; 
+}
+.bs-example{
+	margin: 20px;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 0;
+	color: #ddd;
+	text-align: center;
+	font-family: arial;
+}
+
+
+h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h2 {
+  color: #666;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.70);
+}
+
+h3 {
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+hr {
+	width: 650px;
+	border: 2px solid #999;
+	margin: auto;
+}
+.page-scroll{
+	margin-top: 5px;
+	font-family: Times new Romans;
+	font-size: 17px;
+	color: green;
+
+}
+.gambar{
+	margin-top: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0;
+}
+.img-circle{
+	width: 220px;
+}
+.gambar:hover img {
+	transform: scale(1.1);
+	filter: saturate(10%);
+	
+}
+.clear {
+	clear: both;
+}
+.social li{
+	display: inline;
+	margin-right: 10px;
+}
+
+.social li a {
+	text-decoration: none;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 0;
+	left: 0;
+	background-color: #000;
+	padding-top: 20px;
+	z-index: 999;
+}
+
+footer p {
+	color: #ddd;
+	font-size: 1em;
+}
+th {
+	text-align: center;
+}
+
+.container{
+	width: 900px;
+	margin: 20px auto;
+	top: 50px;
+	padding: 20px;
+	background-image: url(../img/art.jpg);
+
+}
